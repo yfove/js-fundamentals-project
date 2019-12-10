@@ -1,0 +1,91 @@
+body {
+    background: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: olive;
+    font-size: 1em;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+form {
+    font-size: 2em;
+    text-align: left;
+    background: #F8F8F8;
+    border: 1px solid #94C5CC;
+    padding: 10px;
+    box-shadow: 0 0 5px 3px #94C5CC;
+    margin-top: 15%;
+    margin: 15% 0 2% 0;
+    padding: 1em;
+    font-weight: 300;
+}
+
+input {
+    font-size: 1em;
+    margin: .2em;
+    color: goldenrod;
+}
+
+.countdownContainer{
+    text-align: center;
+    background: #F8F8F8;
+    border: 1px solid olivedrab;
+    padding: 2em;
+    box-shadow: 0 0 5px 3px olivedrab;
+}
+
+#displayTimerName{
+    background: olive;
+    border-radius: 0.5em;
+    border: 2px solid white;
+    box-shadow: 0 0 5px 3px #B4D2E7;
+    min-width: 200px;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    white-space: nowrap;
+}
+/* text align */
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+
+.red{
+    color: goldenrod;
+}
+
+.info{
+    font-size: 2em;
+}
+
+#cancel{
+    /* display: none; */
+    margin: 0 auto;
+    color: goldenrod;
+    margin-top: 10px;
+}
+
+.fa-hourglass-start{
+    margin-left: 20px;
+}
+
+.btn{
+    font-size: 20px !important;
+    border-radius: 1em;
+    box-shadow: 0 0 5px 3px olive;
+}
+
+#displayTimerName{
+    color: white;
+}
