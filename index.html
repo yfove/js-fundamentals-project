@@ -23,9 +23,36 @@
             </div>
         </form>
         <!-- this is where we will display stuff -->
-        <table>
-
+        <table class="countdownContainer">
+            <tr class="info">
+                <td id="displayTimerName" colspan="3">Countdown Timer</td>
+            </tr>
+            <tr>
+                <td class="displayRemark" colspan="3">Countdown Timer</td>
+            </tr>
+            <tr class="info">
+                <td id="hours" class="right">--</td>
+                <td id="minutes" class="center">--</td>
+                <td id="seconds" class="left">--</td>
+            </tr>
+            <tr>
+                <td class="right">Hours</td>
+                <td class="center">Minutes</td>
+                <td class="left">Seconds</td>
+            </tr>
+            <tr class="info">
+                <td id="completed" class="red" colspan="3"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <button id="cancel" class="btn">Cancel</button>
+                </td>
+            </tr>
         </table>
     </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
